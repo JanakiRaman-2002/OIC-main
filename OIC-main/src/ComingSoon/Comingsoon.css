@@ -1,6 +1,4 @@
-.this{
-    margin-top: 30rem;
-}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

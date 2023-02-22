@@ -47,10 +47,10 @@ const Comingsoon = () => {
                 </nav> 
                 
             </div>
-            <div className="justify-center h-2/5 flex flex-auto">
+            <div className="justify-center h-2/5 flex flex-auto md:flex">
                 <img src={emblem} className='bg-no-repeat bg-center bg-cover opacity-20' alt="" />
-                <h1 className='text-black absolute inline-block align-text-middle my-80 text-lime-400 font-mono text-9xl font-bold'>COMING SOON!</h1>
-                <h1 className='text-slate-100 absolute inline-block align-text-middle font-mono text-4xl this'>WE ARE BRINGIN' SOMETHING AWESOME YOUR WAY</h1>
+                <h1 className='text-black absolute mt-32 inline-block align-text-middle my-80 text-lime-400 font-mono text-5xl font-bold sm:text-7xl md:text-7xl lg:text-9xl'>COMING SOON!</h1>
+                <h1 className='text-slate-100 absolute text-center inline-block align-text-middle mt-96 font-mono text-3xl mx-3 sm:text-3xl sm:text-center  md:text-5xl sm:align-middle md:text-center lg:text-7xl lg:text-center'>WE ARE BRINGIN' SOMETHING AWESOME YOUR WAY</h1>
             </div>
             <div className="w-screen relative shadow-md shadow-black flex flex-col justify-center text-center items-center bg-black py-3">
             <hr className="w-full h-2 bg-green" />
